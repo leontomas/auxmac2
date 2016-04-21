@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Leonardo Tomas\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0-alpha1\support-annotations-24.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b8062546971a3d196343232a19a3c0016272ba47">
+        <dex dex="C:\Users\Leonardo Tomas\Desktop\androidprojects\latest-material-design\material-design\app\build\intermediates\pre-dexed\release\support-annotations-24.0.0-alpha1-af34e9c7ceb39e9916a649735a438e9317aa9ef1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Leonardo Tomas\Desktop\androidprojects\latest-material-design\material-design\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="C:\Users\Leonardo Tomas\Desktop\androidprojects\latest-material-design\material-design\app\build\intermediates\pre-dexed\release\classes-e5c0cd9e799dafd59ec89a9923796aaae792c5eb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Leonardo Tomas\Desktop\androidprojects\latest-material-design\material-design\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\Leonardo Tomas\Desktop\androidprojects\latest-material-design\material-design\app\build\intermediates\pre-dexed\release\classes-32940b2817b468275e229330ac0e25329ed5bab7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Leonardo Tomas\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\Leonardo Tomas\Desktop\androidprojects\latest-material-design\material-design\app\build\intermediates\pre-dexed\release\glide-3.7.0-aa943710fbae5d8f0cb9bd13a640419954df2267.jar" />
+    </item>
+    <item
+        jar="C:\Users\Leonardo Tomas\Desktop\androidprojects\latest-material-design\material-design\app\build\intermediates\exploded-aar\com.commit451\PhotoView\1.2.4\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="890be6e1e56a883c9b407a11e067a61886dec123">
+        <dex dex="C:\Users\Leonardo Tomas\Desktop\androidprojects\latest-material-design\material-design\app\build\intermediates\pre-dexed\release\classes-9e7bd24b4b2d91a608abfe4216680cdc4ec6bb3a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Leonardo Tomas\Desktop\androidprojects\latest-material-design\material-design\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9aaaea3a89040f8176f810c85e288fc74d5d1f12">
+        <dex dex="C:\Users\Leonardo Tomas\Desktop\androidprojects\latest-material-design\material-design\app\build\intermediates\pre-dexed\release\classes-1fff1425391ee53e7cb3905d1fdcd28fe3fab7df.jar" />
+    </item>
+    <item
+        jar="C:\Users\Leonardo Tomas\Desktop\androidprojects\latest-material-design\material-design\app\build\intermediates\exploded-aar\com.github.Lukle\ClickableAreasImages\v0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a79a55815e4b37d9e1b8b9db1e406a0c16d82cf0">
+        <dex dex="C:\Users\Leonardo Tomas\Desktop\androidprojects\latest-material-design\material-design\app\build\intermediates\pre-dexed\release\classes-0982a81bd43aed3df7fba40f06fdc7cfe2b29d82.jar" />
+    </item>
+    <item
+        jar="C:\Users\Leonardo Tomas\Desktop\androidprojects\latest-material-design\material-design\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="C:\Users\Leonardo Tomas\Desktop\androidprojects\latest-material-design\material-design\app\build\intermediates\pre-dexed\release\classes-234450522f75154aed4fc4ea86320d264fb72a62.jar" />
+    </item>
+    <item
+        jar="C:\Users\Leonardo Tomas\Desktop\androidprojects\latest-material-design\material-design\jpct_ae\jpct_ae.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c041cea0610a8c1c1b22486e026d519bc7713333">
+        <dex dex="C:\Users\Leonardo Tomas\Desktop\androidprojects\latest-material-design\material-design\app\build\intermediates\pre-dexed\release\jpct_ae-7e29b7e4f32a1f421786550d21197e1d0213f42f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Leonardo Tomas\Desktop\androidprojects\latest-material-design\material-design\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="C:\Users\Leonardo Tomas\Desktop\androidprojects\latest-material-design\material-design\app\build\intermediates\pre-dexed\release\classes-adf056de5786f2f0a64c2c9d0eb7f38ff9373558.jar" />
+    </item>
+    <item
+        jar="C:\Users\Leonardo Tomas\Desktop\androidprojects\latest-material-design\material-design\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\Leonardo Tomas\Desktop\androidprojects\latest-material-design\material-design\app\build\intermediates\pre-dexed\release\classes-ca8004eae0faa25cabe59f3af43022173bb4e3ed.jar" />
+    </item>
+    <item
+        jar="C:\Users\Leonardo Tomas\Desktop\androidprojects\latest-material-design\material-design\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\libs\internal_impl-24.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e57fba0a2d57d3501d8f4ff44c23092978804845">
+        <dex dex="C:\Users\Leonardo Tomas\Desktop\androidprojects\latest-material-design\material-design\app\build\intermediates\pre-dexed\release\internal_impl-24.0.0-alpha1-166225d498e4ff812c0837c07cd75c3805cac1b9.jar" />
+    </item>
+
+</items>

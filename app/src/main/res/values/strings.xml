@@ -1,0 +1,1090 @@
+<resources>
+    <string name="app_name">AuxMac2</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_lessons">Lessons</string>
+    <string name="nav_item_assessment">Assessment</string>
+    <string name="nav_item_models">3D Models</string>
+    <string name="nav_item_dictionary">Dictionary</string>
+    <string name="nav_item_video">Video</string>
+    <string name="nav_item_about">About</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_lessons</item>
+        <item>@string/nav_item_assessment</item>
+        <item>@string/nav_item_models</item>
+        <item>@string/nav_item_dictionary</item>
+        <item>@string/nav_item_video</item>
+        <item>@string/nav_item_about</item>
+    </string-array>
+
+    <string-array name="topicList">
+        <item>Steam Plant Diagram</item>
+        <item>Dual Pressure Boiler</item>
+        <item>Turbine</item>
+        <item>Condenser</item>
+        <item>Feed Water Pump</item>
+        <item>Main Equipment</item>
+        <item>Boiler Design</item>
+        <item>Auxiliary Boiler Plant</item>
+        <item>Typical System Plant Diagram</item>
+        <item>Main parts</item>
+        <item>Steam</item>
+        <item>Hazards and Safety precautions</item>
+        <item>Start and Stop routines</item>
+        <item>Auto Stop</item>
+        <item>Manual Stop</item>
+
+        <item>Working principles</item>
+        <item>Installation</item>
+        <item>Basic Equipment</item>
+        <item>Additional Equipment</item>
+        <item>Starting Procedure</item>
+        <item>Stopping Procedure</item>
+
+        <item>Synchronous Generator</item>
+        <item>Voltage Regulation</item>
+        <item>Safety and Basic precautions</item>
+
+        <item>Rudder Arrangement</item>
+        <item>Actuator working principles</item>
+        <item>Actuator main parts</item>
+        <item>Steering and control system</item>
+
+        <item>Auxiliary Engine</item>
+        <item>Hazards</item>
+        <item>Fire Hazards</item>
+        <item>Electrical hazards</item>
+        <item>Thermal hazards</item>
+        <item>Noise hazards</item>
+        <item>Operation Surveillance</item>
+        <item>Fuel Oil System</item>
+        <item>Lubricating Oil System</item>
+        <item>Cool Water Leakage</item>
+
+        <item>Fresh Water Generator</item>
+        <item>Applications</item>
+        <item>Features</item>
+        <item>Working Principles</item>
+        <item>Installation</item>
+        <item>Additional Equipment</item>
+        <item>Optional Equipment</item>
+        <item>Service Support</item>
+        <item>Starting Procedures</item>
+
+        <item>Operation of Generator</item>
+        <item>Flux</item>
+        <item>AC Synchonous generator</item>
+        <item>Diesel Engine</item>
+        <item>Windings</item>
+        <item>Armature Reaction</item>
+        <item>Rotor Position</item>
+        <item>Basic Precaution</item>
+        <item>Electric Shock</item>
+        <item>General Electric Maintenance</item>
+
+        <item>Steering Gear</item>
+        <item>Torque</item>
+        <item>Flap Rudder</item>
+        <item>Half Spade Rudder</item>
+        <item>Standard Model</item>
+        <item>Ram</item>
+        <item>Actuator</item>
+        <item>Engine Control room</item>
+        <item>Wheel House</item>
+        <item>Steering gear compartment</item>
+        <item>Steering modes</item>
+
+    </string-array>
+
+    <string name="title_home">Home</string>
+    <string name="title_lessons">Lessons</string>
+    <string name="title_assessment">Assessment</string>
+    <string name="title_models">3D Models</string>
+    <string name="title_dictionary">Dictionary</string>
+    <string name="title_video">Video</string>
+    <string name="title_about">About</string>
+
+    <string name="about_title">AuxMac2</string>
+    <string name="about_caption">This mobile app focuses on Auxiliary Machinery 2 course that provides complete lessons with visualization and simulation, assessment, dictionary and 3d models.</string>
+
+    <!-- Aux Boiler Operation -->
+    <string name="lesson1_title">
+        Auxiliary Boiler Plant
+    </string>
+
+    <string name="lesson1_page1">
+    At the end of the lesson, students will be able to:\n\n
+
+        •   Gain understanding of the basic steam cycle and the main components of an auxiliary steam plant.\n
+        •   Be acquainted with the main parts of a steam plant.\n
+        •   Understand the steam cycle.\n
+    </string>
+
+    <string name="lesson1_page2">
+
+        A boiler or steam generator is a device used to create steam by applying heat energy to water. Although the definitions are somewhat flexible, it can be said that older steam generators were commonly termed boilers and worked at low to medium pressure but, at pressures above this, it is more usual to speak of a steam generator.
+        \n\n
+
+         - The feed-water will never be contaminated and will be free of any oxygen \n
+         - We do not need a desecrator in the primary system \n
+         - The heating surface will always be cooled by the water flow \n
+         - The temperature will not rise above the evaporating temperature \n\n
+
+         In the boiler we are heating water and steam by burning oil. Some of the energy content of the steam is converted to mechanical energy in the turbine.
+          \n\n
+         Exhaust steam from the turbine is cooled in the condenser and the condensate brought back to the boiler by the feed water pump.
+        \n\n
+
+        The working principle of the dual pressure boiler:
+        \n\n
+        - Water is heated by the oil burners in the combustion chamber \n
+        - The steam from the primary system is fed to the heat exchanger in the secondary system \n\n
+
+        Advantages: \n\n
+        - The feed-water will never be contaminated and will be free of any oxygen \n
+        - We do not need a desecrator in the primary system \n
+        - The heating surface will always be cooled by the water flow \n
+        - The temperature will not rise above the evaporating temperature \n\n
+
+        In the oil fired boiler the water in the risers are heated and small bubbles of steam are formed inside the tubes.
+        \n\n
+        The steam/water is at evaporating temperature entering the steam drum and the colder water in the steam drum is “falling” back to the water drum through the down comers
+        \n\n
+        In the secondary steam drum the primary steam is entering the heating coils at a temperature corresponding to the pressure.
+        \n\n
+        The secondary steam leaves the drum at a pressure of say 15 bar and a temperature of 197 ° C and is passing through the super heater before it enters the turbine. In the super heater the wet steam is heated by the exhaust gas from the oil fired boiler to app. 410 ° C and it leaves the superheater completely dry
+        \n\n
+
+        - Water is heated in a closed vessel to produce steam under high pressure \n
+        - The steam is passed over the blades of the turbine \n
+        - This causes the turbine to rotate \n
+        - A shaft from the turbine forms the armature of a generator \n
+        - The turning armature generates electricity \n
+        - The steam is cooled in condenser and recycled.\n\n
+
+        The condenser is of the seawater cooled tube and shell type- A large capacity condenser may have up to 6000 tubes. The vacuum in the condenser is normally obtained by using one or more steam driven ejectors
+        \n\n
+
+        Feed Water Pump is a specific type of pump used to pump feedwater into a steam boiler. The water may be freshly supplied or returning condensate produced as a result of the condensation of the steam produced by the boiler. These pumps are normally high pressure units that take suction from a condensate return system and can be of the centrifugal pump type or positive displacement type.
+        \n\n
+
+        Main Equipment\n\n
+
+        The boiler is a complicated construction of steel tubes, pipes and drums- The primary boiler of the "D.type" has an upper and a lower drum connected together with hundreds of tubes and pipes.
+        \n\n
+        The upper drum is the steam/water drum and the lower one the water drum \n\n
+
+        Water is circulating inside the pipes that are arranged as walls.
+    </string>
+
+    <string name="lesson1_page5">
+        Inside the furnace the water in the risers is heated by the flames from the oil burners. \n\n
+
+        As the density of water is thirty times the density of steam, the mixture of steam and water will flow to the top drum
+        \n\n
+        The heavier water in the top drum will flow back to the lower drum through the down comers outside the furnace walls \n\n
+
+        In the upper drum the steam will leave the water as saturated steam with a water content of approximately 0.25
+        \n\n
+        Primary steam is entering the evaporating coil in the secondary steam drum and is condensed as the energy is transferred to the secondary steam system
+        \n\n
+
+        This steam is heated above "boiling temperature" as it is passing the super heater in the furnace.\n\n
+
+        Close to the burners the temperature can reach 2000 ° C, so it is very important that we always have a sufficient flow of steam through the super heater when we are firing the boiler.
+    </string>
+
+    <!-- -->
+
+    <!-- Aux Engine -->
+    <string name="lesson2_title">
+        Auxiliary Engine
+    </string>
+
+    <string name="lesson2_page2">
+        At the end of this lesson, the students will be able to:\n\n
+
+        •   Increase the Operator’s General knowledge of “Diesel Engine Generator Set” in order to ensure\n\t
+        •   safe and efficient running of the engines \n\t
+        •   minimized risk of damage and breakdowns of machinery\n
+        •   Acquaint with Engine type designation and Technical Data\n
+        •   Give all operating personnel a basic understanding of the importance of taking necessary safety precautions.\n
+    </string>
+
+    <string name="lesson2_page3">
+        Auxiliary Engine \n\n
+        The engines used to drive the generators/alternators are the vessels primary source of power. This must always be taken into account in establishing priorities with regard to the operation, maintenance, and ordering of spares. It is essential that the manufacturer’s instructions are closely followed with regard to maintenance and overhaul of critical components such as connecting rods, bottom end bolts, shell bearings, pistons. All maintenance, overhauls and repairs must be fully and accurately recorded. Any accidental over speed, overheating, blackout or major failure must be notified to the relevant Management office. During Standby for manoeuvring periods, a minimum of two generators/alternators are to be on load.
+
+       
+        Hazards
+        \n\n
+        There are some basic rules that should be noticed:
+        \n
+        - Never ignore an alarm. \n
+        - Never ignore signs on the engine or warnings in the manuals. \n
+         -Be aware of the location of safety equipment in the engine room (for instance fire extinguisher and medical equipment).\n\n
+
+        Types of Hazards
+        \n\n
+        - Fire hazards \n
+        - Electrical hazards \n
+        - Thermal hazards \n
+        - Noise hazards\n\n
+
+        Fire Hazards
+        \n\n
+        - Keep the engine room in a clean and orderly fashion. \n
+        - Close oil tanks and remove oil spills.\n\n
+
+        Electrical Hazards
+        \n\n
+        - Internal inspection and maintenance of components in the electrical system should only be performed by certified personnel
+        - Inspection of wire insulation should be performed regularly
+    </string>
+
+    <string name="lesson2_page4">
+        Thermal Hazards
+        \n\n
+        - Always be aware of what parts of the engine you touch when working on or by the engine. \n\n
+
+        Noise Hazards
+        \n\n
+        Necessary protective measures will vary from ship to ship. Engine operators and anyone entering the engine room while the engine is running should protect their hearing with the means available.
+        \n
+        An excessive noise level may lead to: \n
+        - Permanent reduced hearing \n
+        - Buzzing in the ears \n
+        - Tiredness, stress etc \n
+        - Other effects as loss of balance, loss of awareness, etc. \n\n
+
+
+        Start and stop routines\n
+        Starting preparation after a short period of stand still \n\n
+        Vent the fuel oil system \n\n
+        - Check jacket cooling water. \n
+        - For start on HFO: Check fuel oil and nozzle oil temperatures. \n
+        - Check control air pressure \n
+        - Prime the main lubricating oil system. \n
+        - Check for cooling water leakage. \n
+        - Clean rocker arm lubricating oil filter. \n
+        - Check starting air pressure. \n
+        - Check start interlocks. \n\n
+
+        Start and Stop routines\n
+        Starting preparation after a short period of stand still
+        \n\n
+        Venting the fuel oil system:
+        \n\n
+        - Disconnect the high pressure pipe between some of the fuel injection pumps and fuel injection valves. \n
+        - Wait until only oil comes out of the pipe. \n
+        - Reconnect.
+        \n\n
+
+        Check the cooling water system: \n
+        Start on MDO:
+        \n\n
+        - Above 50°C:...............................Warm standby starting \n
+        - Between 0°C and 50°C:.............................Cold starting \n
+        - Below 0°C Emergency starting
+        \n\n
+        Start on HFO: \n
+        - Jacket water temperature must be over 50°C
+        \n\n
+
+        For start on HFO: Check fuel oil and nozzle oil temperatures: \n
+        - The temperature of the HFO has to be as required for the fuel oil injection viscosity. \n
+        - The nozzle oil temperature has to be 85 +-5 °C. \n\n
+    </string>
+
+    <string name="lesson2_page5">
+        Prime the main Lubricating Oil System: \n\n
+        - Pump through the main lubricating oil system \n
+        - Start the electric priming pump if it is not already running or use the manual one. \n
+        - NOTE! Close the manual start air shut off valve \n
+        - Open the indicator valves on the cylinder heads \n
+        - Open the hatch on the flywheel cover \n
+        - Use the turning bar to turn the engine slowly while priming \n
+        - When the engine has been rotated one full turn, remove the turning bar and close the hatch. \n
+
+        Check for cooling water leakage: \n\n
+        - The indicator valves on the cylinder heads must be open. \n
+        - Open the valve to the starting air. \n
+        - Run the engine on starting air to ensure that there is no water in the cylinders. \n
+        - Close the indicator valves. \n\n
+
+        Clean rocker arm lubricating oil filter: \n
+        - Clean the filter in the rocker arm lubricating oil system by turning the handle. \n\n
+
+        Check starting air pressure: \n
+        - Make sure that the start air pressure is as close to 30 bars as possible, and minimum 15 bars. \n\n
+
+        Check start interlocks: \n
+        - Ensure that the start interlocks are not activated: \n
+        - The hatch on the flywheel cover is closed. \n
+        - The key switch on the control panel is closed. \n\n
+
+        Starting Preparation after a Long Period of Stand Still \n\n
+
+        - Vent the fuel oil system \n
+        - Check jacket cooling water \n
+        - For start on HFO: Check fuel oil and nozzle oil temperature \n
+        - Check control air pressure \n
+        - Prime the main lubricating oil system \n
+        - Check for cooling water leakage \n
+        - Clean rocker arm lubricating oil filter \n
+        - Check control shaft \n
+        - Check starting air pressure \n
+        - Check start interlocks \n
+        - Start the engine \n
+        - Check all manometers \n
+        - Check the start air piping\n\n
+    </string>
+
+    <string name="lesson2_page6">
+        Venting the fuel oil system: \n\n
+        - Disconnect the high pressure pipe between some of the fuel injection pumps and fuel injection valves. \n
+        - Wait until only oil comes out of the pipe. \n
+        - Reconnect. \n\n
+
+        Check the cooling water system: \n\n
+        - Open the LT and the HT cooling water valves. \n
+        - Check the HT cooling water level in the expansion tank. If the engine has been drained, the HT system must be vented.
+        \n\n
+        Start on MDO: \n\n
+        - Above 50°C:...............................Warm standby starting \n
+        - Jacket cooling water above 0°c............................. Cold starting \n
+        - Below 0°C Emergency starting \n\n
+
+        Start on HFO: \n
+        - Jacket water temperature must be over 50°C \n\n
+
+        For start on HFO: Check fuel oil and nozzle oil temperatures: \n\n
+        - The temperature of the HFO has to be as required for the fuel oil injection viscosity. \n
+        - The nozzle oil temperature has to be 85 +-5 °C. \n\n
+
+        Check the control air system: \n\n
+        - Check the control air module. \n
+        - Ensure that the control air pressure is between 5 and 7 bar. \n
+        - Open the control air quickly to avoid that the solenoid valves are placed in the centre position. \n
+        - Drain the control air module. \n\n
+
+        Prime the main lubricating oil system: \n\n
+        - Pump through the main lubricating oil system \n
+        - Inspect the lubricating oil filters and clean them if necessary \n
+        - Start the electric priming if it is not already running (at least one hour before start-up) \n
+        - Open the indicator valves on the cylinder heads \n
+        - Close the manual start air shut off valve before opening the hatch on the flywheel cover
+    </string>
+
+    <string name="lesson2_page7">
+        - Use the turning bar to turn the engine slowly while priming \n
+        - When the engine has been rotated one full turn, remove the turning bar and open the manual start air shut off valve.
+        \n\n
+
+        Check for cooling water leakage: \n\n
+        - The indicator valves on the cylinder heads must be open. \n
+        - Open the valve to the starting air. \n
+        - Run the engine on starting air to ensure that there is no water in the cylinders. \n
+        - Close the indicator valves.
+        \n\n
+
+        Clean rocker arm lubricating oil filter: \n\n
+        - Clean the filter in the rocker arm lubricating oil system by turning the handle. \n\n
+
+        Check control shaft with linkages \n\n
+        - Check and oil the control shaft with transmission linkages to ensure good move ability.\n\n
+
+        Check starting air pressure \n\n
+        - Lubricate the roller bearing in the start air distributor with grease. \n
+        - Check the compressor\'s lubricating oil level. \n
+        - Drain the starting air bottle. \n
+        - Make sure that the start air pressure is as close to 30 bar as possible, and minimum 15 bar. \n
+        - Open the air valve(s) slowly to avoid pressure oscillations in the system.
+        \n\n
+         
+        Check start interlocks: \n\n
+        - Ensure that the start interlocks are not activated: \n
+        - The hatch on the flywheel cover is closed. \n
+        - The key switch on the control panel is closed.
+        \n\n
+
+        Start the engine \n
+        Check all manometers
+        \n\n
+        - Tachometer \n
+        - Hour counter \n
+        - Indicator, Exhaust Temperature \n
+        - Start button \n
+        - Stop button \n
+        - Plug \n
+        - Reset button, auto stop \n
+        - Key switch \n
+        - Interlock indicator \n
+        - Manometers \n\n
+
+        Check the start air piping \n\n
+
+        Routine duties must include the manual checking of the main air starting valve pipes for any increase in temperature, which would indicate leakage of combustion gasses into the system. It is particularly relevant during manoeuvring when the main air starting reservoirs are open to the system despite the existence of non-return valves and other devices.
+        \n\n
+
+        Stop Routine \n\n
+        There are 2 ways to stop engine: \n
+        - Auto stop \n
+        - Manual Stop \n\n
+    </string>
+
+    <string name="lesson2_page8">
+        Auto stop \n\n
+        - The control system stops the engine by making the actuator set the fuel rack position to zero and by activating the pneumatic stop cylinders.
+        \n
+        - No valves should be manually operated, and electrical switches remain in Auto mode.
+
+        Manual Stop \n\n
+        - The engine can be stopped from the PLC-cabinet or from the engine panel with a switch marked: "STOP". \n
+        - This will make the actuator set the fuel rack to zero position, which will result in an immediate stop. \n
+        - When the engine is idle this is regarded as a normal stop. \n
+        - When the engine is running on load it will be regarded as an emergency stop, because the abrupt halt may cause damage to the engine and generator.
+        \n\n
+
+        In case of any labor on, or close to the engine the following should be done after the engine has stopped:
+        \n\n
+        - Switch off the key switch on the engine panel. \n
+        - Close the starting air valve. \n
+        - Put up signs: "Do not start engine. maintenance in progress", in every pl the engine can be started from. \n
+        - The engine has to be cooled, wait on hour before starting the labor. \n
+        - Stop the system pumps. Drain and close valves in the involved systems.
+    </string>
+
+    <string name="lesson2_page9">
+
+    </string>
+
+    <string name="lesson2_page10">
+
+    </string>
+
+    <string name="lesson2_page11">
+
+    </string>
+
+    <string name="lesson2_page12">
+
+    </string>
+
+    <string name="lesson2_page13">
+
+    </string>
+
+	<string name="lesson2_page14">
+
+    </string>
+
+    <string name="lesson2_page15">
+
+    </string>
+
+    <string name="lesson2_page16">
+
+    </string>
+
+    <string name="lesson2_page17">
+
+    </string>
+
+    <string name="lesson2_page18">
+
+    </string>
+
+    <string name="lesson2_page19">
+
+    </string>
+
+    <string name="lesson2_page20">
+
+    </string>
+
+    <string name="lesson2_page21">
+
+    </string>
+
+    <string name="lesson2_page22">
+
+    </string>
+
+    <string name="lesson2_page23">
+
+    </string>
+
+    <string name="lesson2_page24">
+
+    </string>
+
+    <!-- Fresh Water Generator -->
+    <string name="lesson3_page1">
+        Fresh Water Generator
+    </string>
+
+    <string name="lesson3_page2">
+        At the end of this lesson, students will be able to:\n\n
+
+        •   Gain knowledge on the working principles of Alfa Laval Fresh Water Generator.\n
+        •   Know the starting procedures of Alfa Laval Fresh Water Generator.\n
+        •   Know the stopping procedures of Alfa Laval Fresh Water Generator.\n
+    </string>
+
+    <string name="lesson3_page3">
+        Applications \n\n
+
+        The function of the fresh water generator is to convert seawater into fresh water by vacuum distillation, for the supply of high quality fresh water for domestic and process utilization. \n
+        It is made for installation on ships and rigs, and remote onshore locations. \n
+        The Alfa Laval Fresh Water Generator JWP-26-C is designed for automatic operation with continuous control of fresh water quality. \n\n
+
+        Features \n\n
+        The Generators features are: \n
+        •	Simple, compact design \n
+        •	Titanium heat exchanger plates and other seawater resistant materials (non-coated) \n
+        •	Combined condenser cooling, ejector water and feed water system. \n
+        •	Fresh water control system \n\n
+
+        Some of the advantages of using Alfa Laval’s Fresh Water Generator: \n\n
+
+        •	High quality fresh water, the low content of dissolved solids (salinity)ensures a supply of pure water, which can be used directly as make-up for steam boilers. \n
+        •	Long lifespan. High grade, corrosion resistant materials, such as titanium plates, ensures the long life of the equipment. \n
+        •	Low operation and maintenance costs. Start-and-forget operation, combined with easy access to the interior, reduces the number of man-hours required for operation and maintenance to a minimum. \n
+        •	Simple installation due to compact design, low weight and the ability to be assembled on the spot. \n\n
+
+        Capacity range for distillers type 80 and 100 \n\n
+
+        The Alfa Laval Fresh Water Generator JWP-26-C series covers a capacity range from 4 to 35 m3/24h, depending upon the heating medium and cooling water temperatures. The values illustrated are based on a cooling water temperature of 32 degree Celsius. \n\n
+        Distillers can be dimensioned to suit any jacket water temperature from 55-95 degree Celsius and suit any cooling water temperature required. The quality of fresh water produced can be altered within each size by varying the number of plates in the heat exchanger assemblies. \n\n
+
+        Working principle \n\n
+
+        The feed water to be distilled is taken from the sea cooling water outlet of the condenser. It enters the evaporator where it evaporates at about 40-50°C as it passes between the plates heated by the heating medium. \n\n
+        The evaporating temperature corresponds to a vacuum of 90-95%, maintained by the brine/air ejector. The vapors generated pass through a demister where any drops of seawater entrained are removed and fall due to gravity into the brine sump in the bottom of the distiller chamber. \n\n
+        The clean freshwater vapors continue to the condenser, where they condense into fresh water as they pass between the cold plates cooled by the sea cooling water. In order to continuously check the quality of the fresh water produced, a salino-meter is provided together with an electrode unit fitted on the fresh water pump delivery side. If the salinity of the fresh water produced exceeds the permitted maximum value, the solenoid valve and alarm are then activated to automatically dump the fresh water produced into the bilge.
+
+    </string>
+
+    <string name="lesson3_page6">
+        This illustration shows a cross section as seen through the distiller chamber. \n\n
+
+        The parts included are:
+    </string>
+
+    <string name="lesson3_page12">
+        Installation \n\n
+
+        The JW26-c freshwater generator is designed for automatic operation in periodically unmanned. \n\n
+
+        Engine rooms and other automated operations. \n\n
+
+        The heating medium is either engine jacket cooling water or a closed circuit heated by steam. The ejector pump is installed separately and has a separate suction from the sea chest. This pump supplies coolant in the form of seawater to the condenser, feed water for evaporation and water for the combined brine/air ejector. The built in freshwater pump pumps the fresh water produced into the tank.
+
+        \n\n
+        The control panel, which is installed separately with motor starters and salino-meter supplies electrical power to the ejector and freshwater pumps and control voltage to the salin.
+    </string>
+
+    <string name="lesson3_page18">
+        Additional Equipment \n\n
+
+        Additional equipment necessary for operation includes: \n
+
+        1.	Combined cooling and ejector water pump with electrical motor
+    </string>
+
+    <string name="lesson3_page20">
+        Optional Equipment \n\n
+
+        Optional equipment includes: \n
+        1.	Steam injector system type JWSP and SP \n
+        2.	Equipment for steam boosting and hot water loop system \n
+        3.	Extended control panel with motor starters and salino-meter \n
+        4.	Fresh water pH adjustment (re-hardening) filter \n
+        5.	Fresh water disinfection equipment \n
+        6.	Connections according to ANSI and JIS standard \n\n
+
+        Technical Documentation \n\n
+
+        Complete information and documentation accompany each freshwater generator. The Installation Manual gives all information necessary for correct installation including: \n\n
+
+        -Plant description \n
+        -Installation procedure \n
+        -Technical data and drawings \n\n
+
+        The Instruction Manual gives all information necessary for operation and maintenance including: \n\n
+
+        -Plant description \n
+        -Operating instructions \n
+        -Chemical dosing of anti-scale chemicals \n
+        -Trouble shooting \n
+        -Maintenance of major components \n
+        -Spare parts drawings \n
+        -Technical data and drawings
+
+    </string>
+
+    <string name="lesson3_page33">
+        Service Support \n\n
+        An international network of Alfa Laval Marine Services Centers provides the availability of spares and service wherever you are. The service engineers can assist with any level of maintenance and will train your operation and maintenance personnel if desired. Further information can be obtained from your nearest Alfa Laval representative.
+    </string>
+
+    <string name="lesson3_page40">
+        Starting procedures \n\n
+
+        Point 1 \n
+        Open the valves on the suction and discharge side of the ejector pump. \n\n
+
+        Point 2 \n
+        Open the overload valve for combined air/brine ejector. \n\n
+
+        Point 3 \n
+        Choose the air valve on the upper part of the separator vessel. \n\n
+
+        Point 4 \n
+        Set the main switch to position I. \n\n
+
+        Point 5 \n
+        Start the ejector pump. Check the pressure before ejector- minimum 0.28 – 0.3 MPa after ejector – maximum 0.06 MPa. \n\n
+
+        Point 6 \n
+        When there is a minimum of 90% vacuum, open the hot water inlet and outlet valves / from the jacket cooling system. \n\n
+
+        Point 7 \n
+        Start the hot water supply to the evaporator section by adjusting the by-pass valves, until the desired jacket water temperature difference is reached which is 80°C for the inlet, and for the outlet 72°C. The boiling temperature inside the separator vessel ought to be about 45°C. \n\n
+
+        Point 8 \n\n
+        Start the fresh water pump. When the salinity level drops below the set alarm point, set the Sec. (secondary) alarm on. \n\n
+
+        Improper or too low hot water flow (adjust by-pass) will result in low boiling water temperature and a drop the fresh water production (high brine level in the sight glass in the separator vessel). \n\n
+
+        Point 9 \n
+        During the first few minutes, after the fresh water pump starts, the salinity of produced water may be higher than the set alarm point, thus dumping it to bilge is recommended (the solenoid valve on the discharge side of freshwater pump stays open). \n\n
+
+        When evaporation starts, the boiling temperature rises, while the vacuum achieved drops to approximately 93 0/0. \n\n
+
+        After a few minutes’ normal vacuum and boiling temperature is re-established, salinity drops below the set alarm point and the solenoid valve closes.
+
+    </string>
+
+    <!-- Opeartion of Generator -->
+    <string name="lesson4_page1">
+        Operation of Generator
+    </string>
+
+    <string name="lesson4_page2">
+    At the end of this lesson, the students will be familiar with:\n\n
+    
+        •   How alternate currents appear.\n
+        •   Voltage Regulation.\n
+        •   Single Phase Generator\n
+        •   Three Phase Generator\n
+        •   Safety precautions during maintenance of the electrical installations.\n
+    </string>
+
+    <string name="lesson4_page3">
+        Synchronous Generator \n\n
+
+      
+        How Alternate Currents Appear \n\n
+
+        It is said “if a winding is rotated in a homogeneous magnetic field a voltage will be induced in the winding” \n\n
+        Faradays Law: Induced voltage = Change of Flux/Time Factor \n\n
+
+        Which means that the rate of flux change determines the strength of the voltage. \n\n
+
+        What is flux? \n\n
+
+        What is flux? Flux can be described as the magnetic field which crosses the winding.
+        As we can see, at this position, the maximum magnetic field crosses the winding, which means maximum flux.
+        (video: Transition(3d to 2d)2)
+        Let us rotate the winding and see what happens.
+        (video: Transition Winding to Vector)
+        According to Faradays Law, the induced voltage will be at a minimum when the flux crossing the winding is at maximum because the rate of flux change is at its minimum.
+        The green depicts the induced voltage while the red line depicts the actiual flux. \n\n
+
+        As we can see; the induced voltage is at its highest when the flux change rate is at its highest, which in turn illustrates that when the flux change rate is at its lowest the induced voltage is at its lowest.
+        \n\n
+
+        The AC Synchonous Generator \n\n
+
+        What we have seen so far is a simple generator in which the winding has been turned, and the induced voltage must be extracted via the slip rings and brushes. Generators have their windings mounted in the armature and the magnetic field does the rotating.
+        \n\n
+
+        As we can see, it is the relative movement between the winding and the magnectic field that produces the voltage. As long as the magnetic field crosses the winding, voltage will be induced in the winding.
+
+    </string>
+
+    <string name="lesson4_page4">
+        NOTE: The stronger magnetic field(more field lines, which give a higher rate of flux change) results in higher voltage. \n\n
+
+        What we have now is a very simplified, single phase generator with 2 poles. In order to achieve a frewuency of 60 hz we must rotate the magnet at a speed of 3600 rpm. The rotational speed can be found by using the formula below:
+        \n\n
+
+        Frequency=(Pair of poles on magnet)* RPM/60 seconds
+        \n
+        X= 3600 rpm
+
+        In this module we will use a diesel engine with 1200 rpm, 60hz as the primary mover for the alternator.
+        How many pole pairs are present in the alternator?
+        Answer: 3 poles
+        X pairs of poles = 3600 / 1200 = 3 pairs of poles \n\n
+
+
+        The Three Phase Synchonous Generator \n\n
+
+        Practically, all generators are designed as three phase generators. The three winding sets are mounted with a 120 degrees phase shift around the stator. This will give the three phases with the induced voltage 120 degrees shifted relative to each other.\n\n
+
+        We want to utilize the armature in order to create a three phase system, so we provide the generator with two extra sets of windings and a 4 pole (two pairs) magnet on the rotor.
+
+        The windings must be mounted in such a way that each windings has its winding sides over both the north and the south poles at the same time.
+        \n\n
+
+        We will now add the other two “phases” by adding two more windings to the armature.
+        (video:3phase vector45)
+        \n\n
+
+        If we study this generator during one revolution, we will see that the generator will produce two sets of sinus curves instead of one as for the 2-pole, one winding generator. This means that the prime mover, for example a diesel engine, can run at half speed and still produce a constant 60hz.
+        (video:3phase vector90)
+
+    </string>
+
+    <string name="lesson4_page5">
+        In this section we will take a closer look at how different types of loads effect the generator. We will use the four-pole generator as an example.
+        \n\n
+
+        Since no load is connected to the generator (open circuit), no current will be presernt in the generator armature. This means that there are no magnetic fields around the windings, which also means that the voltage at the generator terminals equals the induced voltage in the armature.
+        \n
+
+        With the rotor position as shown, the voltage at the red terminal has passed maximum negative voltage and is approaching zero.
+        \n
+
+        As we will see in the following illustrations, there is current in the armature windings. (x indicates current direction inwards and the dot indicates current direction outwards from the screen) This will set up a magnetic field around the windings with the direction indicated by the arrows.
+        \n
+        As we know, a current through an ohmic load will have the same phase as the induced voltage. This means that when the induced voltage is at its maximum, the current will be at its maximum.
+        \n\n
+
+        At the rotor position shown, the voltage at green terminal has passed zero and is approaching maximum negative voltage.
+        \n
+
+        Since the generator is connected to an ohmic load, a current will flow through the windings which is in phase with the voltage.
+        \n\n
+
+        At the rotor position shown, the voltage at the blue terminal is at its maximum. Since the generator is connected to an ohmic load there will flow a current through the winding which is in phase with the voltage.
+        \n\n
+
+        According to the right hand rule, magnetic fields will appear around the windings as shown.
+
+    </string>
+
+    <string name="lesson4_page11">
+        
+        As we have seen so far in this section, the induced voltage and therefore the terminal voltage, is dependent on the type of load connected to the generator terminals. To maintain the terminal votalge within acceptable limits due to load change on the generator, we need to vary the strength of the main field. \n\n
+
+        The curves show the relationship between terminal voltage and current at constant magnetism. It is evident that an inductive load demands the largest voltage regulation. However, the different consumers onboard a typical ship consist of both ohmic, inductive and capasitive loads, in which the total power factor on the generators normally is between 0.8 and 0.9. \n\n
+
+        There are many voltage regulators on the market and the way in which an automatic voltage regulation  (or A.V.R for short) controls the excitation varies from model to model. In this section we will have a look at the principle for  the following two types. \n\n
+
+        1.The brush / slip ring generator. Even though it is not found onboard modern vessels today, all voltage regulators are based upon the same principle and can therefore be considered an introduction to the modern brushless automatic excitation systems. \n
+        2.The brushless generator, with current compounding transformers and electronic control unit. \n
+
+        When the rotor starts turning, there will be induced a low voltage because of the magnetic remnants in the rotor. This voltage will be amplified in the primary winding P2 due to the effect of t he reactor coils and the capacitor bank. The reactor coils and capacitor bank make out a serial resonance circuit tuned in to resonance at 60Hz. The magnetic field around P2 will incude a current in S. The current limiter and the condensator battery is tuned to resonance at nominal frequency (60Hz), and the current through the circuit (When in resonance) is tuned to the nominal terminal voltage.\n\n
+
+        As you can read out the formulas and the illustration, the impedance will decrease and the current will increase until 60Hz is achieved. The circuit is tuned to give a sufficient excitation current to maintain 440 Volt at nominal frequency. As we remember, a reactive load will weaken the main field in the generator. The regulator has to compensate for this strengthening the magnetisation.This will automatically be taken care of by means of the primary winding P1. As soon as the generator is loaded, a current will flow in the primary windings which will induce voltage. The magnetic field in P1 induces an extra current in the secondary winding  S. Therefore the magnetism current is load dependent. \n
+        Although the principle above in ingenious by its simplicity, it does have disadvantages: \n\n
+
+        1.Brushes and slip ring cause attentiveness due to wear and dirt. \n
+        2.It is difficult to adjust the nominal votalge (must change the reactance for the current limiters) \n
+        3.The voltage is to certain grade dependand on the powerfactor on the loads and the prime movers rational speed. \n\n
+
+        The modern voltage regulator systems have the excitation equipment on mounted directly on the generator shaft. Let us have a closer look at a typical voltage regulator system found onboard today. \n
+        We have removed the capacitor bank from this system . Some manufacturers continue to equipt this to prevent the variation of field resistance and thereby affect the component current caused by temperature variations. \n\n
+
+        The brushless generator has its own excitation generator mounted directly on the generator shaft.The rectifier and the excitation machine’s armature winding are part of the generators rotating parts. The excitation winding of the excitation machine represents the stator. The response time is a little slower than the brush / slip ring generator without AVR because it has more components in the system which delay the response, but does not have the disadvantages mentioned under the brush / slip ring system. At the beginning, an unloaded generator has a voltage between the terminals caused by the remanens in the rotor. The star connected reactor coil L2 can be viewed upon as a small internal load in the generator. The inductive current which appears in the reactor coil will flow through the primary windings P1. This current induces a current in the secondary windings S. The alternative current is then rectified in the three phase diode bridge V2. A rectified excitation current will flow from V2 through the excitation winding L1. By strengthening the magnetisation field we will induce a voltage in the stator of the excitation machine. This voltage is then rectified through the diode bridge V3 and fed into the synchronous generator’s excitation winding. Nearly all the voltage regulator systems found onboard are designed in such a way that the regulator controls the voltage down in proportion to the “unregulated” voltage (unregulated voltage would arise to approximately 120% of nomial voltage if the regulator / thyristor was removed). This “overcompensation” is done to achieve as quick as regulation as possible at connection of large consumers. Let’s see what happens when we start the generator. \n
+        The bar graph to the left represents the bus bar voltage and the bar graph to the right represents the generator voltage. \n
+        As we can see, the actual value equals the setpoint. What happens when the actual value is greater than the setpoint?. When the actual voltage is greater than the setpoint, the comparator in the regulator gives an output to the thyristor gate which opens the thyristor.
+        \n\n
+
+        The positive half of the phase in the middle will be shunted by the open thyristor and reduce the output from the rectifier bridge. The firing angle of the thyristor is determined by the set point / actually value deviation. \n
+        Small deviation = a part of the positive cosine curve will be shunted. \n
+        Large deviation = full drive = the whole positive curve half will be shunted. \n
+        When UG Un thyristor is blocked. At the connection of the main breaker (applying a load to the generator), the primary winding will come into action as well as the static voltage regulator. Connect the breaker through the pushbutton. \n
+        Because of the overcompoundsation, UG will be greater than UN and the thyristor will open to limit the excitation. \n\n
+
+    </string>
+
+    <string name="lesson4_page12">
+        The regulator is necessary to ensure equal excitation current to the generators which will ensure equal load sharing. This was not necessary for the brush / slipring generators as the magnetisation windings were accessible so that we could parallel the excitation current wires to avoid unequal loadsharing. This is not the case for the brushless generator, so we have to provide the generators with electronic voltage regulators to achieve equal reactive loadsharing. \n
+        Let’s have a closer look at the principle for an electronic voltage regulator. Point and click on the regulator. \n\n
+
+        R1, R2 and the electronic circuit REL can be viewed upon as three ohmic resistance’s with individual voltage drops. UT1 represents the actual voltage. At increasing load, the UT1 voltage will drop and the voltage over the resistors will change proportionally. As U Rel changes in proportion with the terminal voltage, This value is used as the “actual value” for the comparator. The “actual value” is compared to the setpoin. The result of the comparison is amplified. The output from the amplifier is divided into pulses which switches the thyristor ON and OFF. The size of the pulses depends on the deviation. \n
+        1.Note that the thyristor works “against” the magnetism which means that when UG UN the limitation of excitation current stops. (i.e the thyristor is blocked) \n
+        2.Note that  the resistance R1 (normally found in the main switchboard) is adjusted to a lower value, the voltage will decrease over R1 and respectively increase over REL. This will cause the actual value and the se tpoint be equal at a lower terminal voltage. \n\n
+
+        Note! For a single generator, the current transformer is not necessary because the generator takes the entire load anyway, and therefore some manufacturers have a switch, which disconnects the current transformer at single operation. The regulator then regulates against voltage alone. \n
+        Let us add another generator to the busbar in oder to share the load. \n\n
+
+        Press the “Start DG2” button \n
+        Press the “Connect DG2” button \n
+
+        NOTE: As soon as DG2 takes load, the load on DG1 will be reduced. UG on DG1 will exceed UN and the thyristor will open. The regulators on DG1 and DG2 will then decrease and increase the load on their generators until they are balanced. \n\n
+
+        To ensure equal loadsharing at all loads, tampering with the regulator components is not recommended. We will now take a closer look at possible effects of such tampering. \n
+        If we increase R1 on DG1 during parallel operation, the output from REL will then decrease. The regulator “believes” that UG UN . The comparator output will cause an increased excitation current. The generator will then take a larger part of the reactive load. \n
+        As we can see from it’s characteristic, DG2 will take a larger part of the load if we change the voltage drop on DG1 to 8% during parallel operation. \n
+        The complete AVR circuitry is fairly complex and includes a few preset variable resistors for the control of sensitivity, offset error and stability. These are adjusted and set during the generator trials to achieve an optimum and stable performance. It is strongly recommended that you not to fiddle with such preset resistors. \n
+        The R1 which is found in the main switchboard should only be adjusted as an exception in order to fine adjust the generator voltage at idle.
+   </string>
+
+    <string name="lesson4_page21">
+        Safety \n\n
+
+
+        Basic Precautions \n\n
+
+        Before attempting any electrical work, there are some basic precautions you must bear in mind. The possible dangers arising from the misuse of electrical equipment are well known. Electric shock and fire cause loss of life and damage to equipment.
+        \n
+
+        It is the ship owner and his staff’s responsibility to maintain the vessel and its electrical equipment in compliance with the requirements of the Classification Society throughout the ship’s lifetime.
+        \n
+
+        You should think safety at all times, and develop a safety conscious attitude. This may well save your life and the lives of others. Most accident occurs due to a momentary loss of concentration or attempts to short-circuit standard safety procedures. DO NOT let this happen to YOU.
+        \n\n
+
+        Electric Shock
+        \n\n
+
+        Nearly everyone has experienced an electric shock at some time. At best it is an unpleasant experience, at worst it is fatal Anyone who has access to live electrical equipment must be fully familiar with first and safety procedures related to electric shock as described in relevant safety acts. Copies of these safety procedures should be displayed onboard ship.
+    </string>
+
+    <string name="lesson4_page22">
+                Electric Shock is caused by the flow of the current through you’re your body. This is often from hand to hand or from hand to foot. A shock current as low as 15 mA ac or dc may be fatal. Obviously the size of the shock current is related to the applied voltage and your body’s resistance.
+        Unfortunately, your body’s resistance goes down as applied voltage goes up. This means that the shock current is further increased at high voltages.
+        The amount of your body resistance also depends on other factors such as your state of health, the degree of contact with live wires and the perspiration or dampness on your skin. Typical dry full contact body resistance is about 5000 ohm at 25V falling to 2000 ohm at 250V.
+        Electric shock is often accompanied by falling, which may cause additional physical injury and require first aid action. If the shock victim is unconscious, resuscitation must take place first before doing anything else. Check the resuscitation techniques illustrated on the electric shock displayed on board.
+        \n\n
+
+        General Electric Maintenance \n\n
+        All equipment is subject to wear and tear, eventually reaching the end of its useful life when it must be replaced. As equipment nears the end of its life its condition determines to what an extent it poses a danger to personnel and other power plants.
+        The purpose of maintenance, therefore, is to extend the useful life of equipment by repair and or replacement of defective parts, and to maintain it in a safe and serviceable condition.
+        The marine environment is particularly arduous for electrical equipment due to the damp, salt-laden atmosphere, extremes of temperature and constant vibration. Shipboard equipment is in particular need of correct maintenance. The continuous operation of equipment onboard a ship demands high operating efficiency and optimum economy in order to keep down costs to maintain financial competitiveness.
+        \n\n
+
+            All equipment NEEDS maintenance. An efficient engineer or electrician must get to know his plant. He must be able to check the ship’s drawings and diagrams and relate them to actual equipment.
+        Equipment must be kept under continuous observation so that normal healthy operating conditions become familiar, and abnormal operation becomes quickly apparent. Faults can be the pin-pointed and corrected before a breakdown occurs.
+        Maintenance of the Generator
+        Maintenance of the Generator is normally limited to inspection and lubrication of bearings according to manufactures’ recommendation.
+        Clean the generators in case of dirt in accordance with the manufacturer’s recommendation.
+        It is recommended that you check the generator’s control equipment against the test protocols delivered from the manufacturer.
+        Maintenance of Main Switchboard
+        Limited maintenance is generally all that is necessary on the main switchboard. However, specified maintenance from the different
+    </string>
+
+    <string name="lesson4_page23">
+            manufacturers should be carried out. Generally, the maintenance on a main switchboard consists of cleaning, lubrication of mechanical devices, and checking contacts.
+        \n\n
+
+        Note that unnecessary tightening of contacts and terminals are not recommended. This may cause deformations and in turn break or weaken contacts.
+        Some circuit breakers may have pneumatic delay relays which tend to change delay time due to dirt. These have to be cleaned and checked, eventually readjusted.
+        Inspection of the instruments accuracy must to be carried out according to maintenance schedule.
+        Inspect the generator circuit breakers in accordance with manufacturer’s recommendation.
+        \n\n
+
+        Troubleshooting the Generators \n\n
+        Typical failures on the generator may be one or more of the following: \n
+
+        -	Incorrect voltage when the generator runs at idle: \n
+        Probable cause: Failure within the voltage regulator or excitation diodes. Loose connections may also be the cause.
+        -	Incorrect voltage at increasing load: \n
+        Probable cause: The cause of failure can be found in the current dependent part of the voltage regulation equipment. This is detected by a rapid decrease of voltage at increased load and unequal reactive load sharing.
+
+        The fault may also be found in the excitation diodes, if the voltage drop occurs at high load. This is because the voltage regulator is able to compensate for voltage drop at a low load. Since the range of voltage regulation is limited, it will not be able to compensate for the voltage drop at higher loads, if for example one diode is broken.
+        Faulty windings can be found by resistance measurement of the windings and eventually against earth.
+        If an isolation resistance test is to be carried out on the generator, remember to disconnect the AVR (automatic voltage control (electronic unit), instrument connections and heater supplies.
+        Worn bearings are normally due to normal wear and tear, and damage caused by vibration. Noise and an increase in the temperature of the bearings are signs of worn bearings.
+    </string>
+
+    <!-- Steering Gear -->
+    <string name="lesson5_title">
+        Steering Gear
+    </string>
+
+    <string name="lesson5_page1">
+        At the end of this lesson, the students will be able to:\n\n
+
+        •   Know the principles of the most used rudder arrangements.\n
+        •   Have knowledge in principles of the standard model of the rotary vane actuator.\n
+        •   Identify the main parts of the Actuator.\n
+    </string>
+
+    <string name="lesson5_page2">
+        The torque requirement is given by the class rules to ensure safe maneuverability of the vessel. The size and shape of the rudder, and also the speed of the vessel is taken into consideration.
+        \n\n
+
+        Rudder Arrangement \n\n
+
+
+        In order to move the rudder, the steering gear has to create a certain torque (measured in kilo Newton meters). \n\n
+
+        Spade Rudder - This is the most used rudder type on ferries and smaller boats. This type of rudder gives very good maneuverability, depending on the available rudder angle and the rudder profile. \n\n
+
+        Flap Rudder \n\n
+
+        This type of rudder is used when very good maneuverability is required. The rear fin “exaggerates” the movement of the rudder, making the rudder more effective (increasing the side lift). \n\n
+
+        Half Spade Rudder \n\n
+
+        This type of rudder is most commonly used on big vessels. This rudder is not as effective as a spade rudder of the same size. \n\n
+
+        Actuator Working Principles \n\n
+
+       
+    </string>
+
+    <string name="lesson5_page3">
+        Vane is fixed to a boss (hub) that is fixed directly to the stock. \n\n
+
+        The principle as described for the Porsgrunn rotary vane steering gear can be easily be transformed to the RAM type. Typical for ram type steering gears is that they work with a much higher hydraulic pressure, they need an external rudder stock bearing and the working angle is limited, compared with the rotary vane steering gear. \n\n
+
+        Standard Model \n\n
+
+        The standard model is used on:\n\n
+
+        All vessels except tankers with single rudder installation above 100,000 dwt.\n\n
+
+        Safety: \n
+        Safety against single failure on the hydraulic system, according to SOLAS rules. \n\n
+
+        Basically there are two types of electro hydraulic steering gear working principles: \n\n
+
+        The ram (or cylinder-) type and the rotary vane type. \n\n
+        The working principles of the two are very similar. A strong slow movement of a mechanical surface is created by the use of high oil pressure.
+        \n\n
+
+        -Ram type uses cylinder pistons. \n\n
+
+        -Rotary vane uses pressure working on the side of a vane (or wing) \n\n
+
+        On the ram type the piston is connected by a ram (or nod) to a tiller, and the tiller is fixed connected to the rudder stock, creating the rotating movement. On the rotary vane. \n\n
+
+        Actuator Main Parts \n\n
+
+
+        The actuator is situated on the top of the rudder stock in the steering gear compartment. The rotor in the rotary vane actuator is mounted directly on the rudder stock.
+        \n\n
+
+        The rudder stock connect the actuator with the rudder. \n\n
+
+      
+
+    </string>
+
+    <string name="lesson5_page4">
+        Rudder angle indication system, but there may be other indicators as well according to the ship owner’s requirements. \n\n
+
+        Engine Control room \n\n
+        In the Engine Control Room there is an Alarm/Signal Panel. According to normal standards, and to avoid possible misunderstandings it should not be possible to operate the steering gear from this control stand.
+        \n\n
+
+        Wheel House \n\n
+
+        The main control panel is in the wheelhouse. This control panel features the start/stop and the Alarms/Signals and acknowledgment of alarms.
+        \n\n
+
+        In the wheelhouse ceiling there is a Panorama 3-way rudder angle indicator. There is often also two rudder angle indicators, one on each bridge wing. This is a very common remote
+        \n\n
+
+        Steering gear compartment \n\n
+
+        On the top of the actuator there is a scale with degrees, showing the angle of the rudder to port/starboard, and also signal transmitters and feed-backs for remote rudder indication and steering control system.
+        \n\n
+
+        An auxiliary steering gear is not required according to the rules, because the power units are regarded as back-up for each other.
+        \n\n
+
+        Steering modes \n\n
+
+        Non Follow-up \n\n
+
+        Non-Follow up is totally manual control of the rudder movement, from wheel-house or, in emergency situations, from the steering gear compartment.
+        \n
+
+        Follow-up \n\n
+
+        Follow-up mode is a variant of manual, it allows the rudder to be locked in any rudder angle, and the system will hold it there until you move it again.
+        \n
+
+        Autopilot \n\n
+
+        The ship will automatically find its way to a pre-set route. If the ship is forced out of course, the autopilot will use the rudder to get the ship back on course.
+
+    </string>
+
+    <!-- Additional Learning -->
+
+    <string name="learning_lesson1_page1">
+        It is also known as Steam Generator that is used to create a steam by applyting heat energy to water.
+        \n\n
+
+        http://www.ttboilers.dk/steamgenerator_steamboiler.htm
+        \n\n
+
+        This is part of Boiler plant where in the steam is cooled in condenser and recycled.
+        \n\n
+
+        One of the working principle of dual pressure boiler is "water is heated by oil burners in the combustion chamber"
+        \n
+        The Dual Pressure Boiler
+    </string>
+
+    <string name="learning_lesson1_page2">
+        The working principle of the dual pressure boiler: \n\n
+         - Water is heated by the oil burners in the combustion chamber \n
+         - The steam from the primary system is fed to the heat exchanger in the secondary system \n\n
+
+        It is used to pump feedwater into a steam boiler. \n
+        [video]
+        https://www.youtube.com/watch?v=0UFRs4awSCY
+    </string>
+
+    <string name="learning_lesson1_page3">
+        Condenser \n\n
+
+        The condenser is of the seawater cooled tube and shell type- A large capacity condenser may have up to 6000 tubes. The vacuum in the condenser is normally obtained by using one or more steam driven ejectors.
+        \n\n
+
+        Close to the burners the temperature can reach 2000 ° C, so it is very important that we always have a sufficient flow of steam through the super heater when we are firing the boiler.
+    </string>
+
+    <string name="learning_lesson1_page4">
+        This steam is heated above "boiling temperature" as it is passing the super heater in the furnace-
+        \n\n
+
+        In the upper drum the steam will leave the water as saturated steam with a water content of approximately 0.25
+        \n\n
+
+        Primary steam is entering the evaporating coil in the secondary steam drum and is condensed as the energy is transferred to the secondary steam system
+    </string>
+
+    <string name="learning_lesson1_page5">
+        As the density of water is thirty times the density of steam, the mixture of steam and water will flow to the top drum
+        \n\n
+        The heavier water in the top drum will flow back to the lower drum through the down comers outside the furnace walls
+        \n\n
+
+        Boiler Design
+        \n\n
+
+        The boiler is a complicated construction of steel tubes, pipes and drums- The primary boiler of the "D.type" has an upper and a lower drum connected together with hundreds of tubes and pipes.
+        \n
+        The upper drum is the steam/water drum and the lower one the water drum
+    </string>
+
+</resources>

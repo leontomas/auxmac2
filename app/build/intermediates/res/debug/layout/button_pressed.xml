@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+  <corners android:radius="@dimen/corner_radius" />
+  <solid android:color="@color/blue_pressed" />
+</shape><!-- From: file:/C:/Users/Leonardo%20Tomas/Desktop/androidprojects/latest-material-design/material-design/app/src/main/res/layout/button_pressed.xml -->

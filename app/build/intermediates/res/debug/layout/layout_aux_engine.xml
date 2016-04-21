@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="@color/windowBackground">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/colorPrimary"
+            android:layout_weight="0.10">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Aux Engine"
+                android:id="@+id/textView3"
+                android:textColor="@color/textWhite"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/windowBackground"
+            android:layout_weight="0.90">
+
+            <!--<info.androidhive.materialdesign.activity.SlidingTabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="2dp"
+                android:background="@color/colorPrimary"/>-->
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                ></android.support.v4.view.ViewPager>
+
+        </LinearLayout>
+
+    </LinearLayout><!-- From: file:/C:/Users/Leonardo%20Tomas/Desktop/androidprojects/latest-material-design/material-design/app/src/main/res/layout/layout_aux_engine.xml -->

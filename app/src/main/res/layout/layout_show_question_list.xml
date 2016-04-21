@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="40dp"
+    android:paddingRight="10dp"
+    android:paddingTop="40dp"
+    android:paddingLeft="10dp"
+    android:background="#90000000" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="5dp"
+            android:paddingLeft="10dp"
+            android:layout_weight="0.50">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Test Summary"
+                android:id="@+id/textView5"
+                android:textSize="25sp"
+                android:gravity="left" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.20">
+
+            <ListView
+                android:id="@+id/list_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="#00000000"
+                android:dividerHeight="1.5dp"/>
+
+            <!--<ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/scrollView" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txtAdditionalInformation"
+                    android:padding="10dp"
+                    android:textSize="15sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/textColorPrimary" />
+
+            </ScrollView>-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:layout_weight="0.30">
+
+            <Button
+                android:layout_width="match_parent"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_height="match_parent"
+                android:text="Close"
+                android:id="@+id/btnClose"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

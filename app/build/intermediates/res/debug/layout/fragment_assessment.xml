@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="info.androidhive.materialdesign.activity.DictionaryFragment">
+
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="45dp"
+        android:text="ASSESSMENT"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnAutoViscosity"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Auto Viscosity"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_above="@+id/btnAuxEngine"
+        android:layout_alignLeft="@+id/btnAuxEngine"
+        android:layout_alignStart="@+id/btnAuxEngine" />
+
+    <Button
+        android:id="@+id/btnAuxEngine"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Aux Engine"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:layout_above="@+id/btnFreshWater"
+        android:layout_alignLeft="@+id/btnFreshWater"
+        android:layout_alignStart="@+id/btnFreshWater" />
+
+    <Button
+        android:id="@+id/btnFreshWater"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Fresh Water Generator"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnBoiler"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Boiler Operation"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/btnFreshWater"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout><!-- From: file:/C:/Users/Leonardo%20Tomas/Desktop/androidprojects/latest-material-design/material-design/app/src/main/res/layout/fragment_assessment.xml -->

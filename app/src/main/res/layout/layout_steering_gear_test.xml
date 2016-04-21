@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="250dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="250dp"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="Take Test"
+        android:textColor="@color/textWhite"
+        android:background="@color/colorPrimary"
+        android:id="@+id/btnTest"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <!--android:paddingLeft="60dp"
+    android:paddingTop="240dp"
+    android:paddingRight="60dp"
+    android:paddingBottom="240dp"-->
+
+</LinearLayout>
